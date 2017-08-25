@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container spacing">
+      <div class="row">
+        <div class="six columns">
+          <div id="logo-wrapper">
+            <img src="snake.png" alt="Snake" width="260px" id="snake-image">
+            <h3>Snake in Vanilla JS</h3>
+          </div>
+        </div>
+        <div class="six columns">
+          <div id="game-wrapper">
+            <canvas id="snake-game" width="300" height="300">
+            </canvas>
+            <span id="score">Score: 0</span>
+            <div id="overlay">
+              <button>play game</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
